@@ -6,7 +6,7 @@
       background: #E2E4E7;
       padding: 0;
       text-align: center;
-      font-family: 'open sans';
+      font-family: 'Fredoka One', cursive;
       position: relative;
       margin: 0;
       height: 100%;
@@ -22,6 +22,12 @@
 
     a {
       text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: grey;
     }
 
 
@@ -34,7 +40,7 @@
       color: #000;
       margin-bottom: 5px;
       font-size: 70px;
-      letter-spacing: -4px;
+      letter-spacing: -3px;
       font-weight: 100;
     }
     h1 span {
@@ -43,15 +49,17 @@
       text-transform: capitalize;
       background: rgba(0,0,0,0.85);
       display: inline-block;
-      color: #6D461D;
+      color: white;
       border-radius: 5px 5px;
       -webkit-border-radius: 5px 5px;
       -moz-border-radius: 5px 5px;
       text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
       padding: 3px 10px;
     }
+
     h2 {
-      color: #6D461D;
+       font-family: 'open sans';
+      color: white;
       font-weight: 100;
       margin-top: 0;
       margin-bottom: 10px;
@@ -95,7 +103,7 @@
     }
 
     .main h1 {
-      padding:150px 50px;
+      padding: 50px 50px;
       float: left;
       width: 100%;
       font-size: 45px;
@@ -103,7 +111,7 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       font-weight: 100;
-      color: white;
+      color: #ead731;
       margin: 0;
     }
 
@@ -144,6 +152,7 @@
       font-size: 17px;
       font-family: open sans;
       font-weight: bold;
+      padding-top: -50px;
     }
     .reload:hover{
       background: #444;
@@ -153,6 +162,7 @@
       color: rgb(255, 255, 255);
       border: 4px solid rgb(0, 0, 0);
       background: rgba(3, 3, 3, 0.75);
+      padding: 10px 10px;
     }
     .clear {
       width: auto;
@@ -162,7 +172,7 @@
     }
     .btns {
       width: 410px;
-      margin: 50px auto;
+      margin: 10px auto;
     }
     .credit {
       text-align: center;
@@ -222,6 +232,7 @@
       position: absolute;
       max-width: 100%;
       z-index: 1;
+      top: 20%;
     }
 
     /* PAGE ONE */
@@ -233,6 +244,7 @@
       text-align: left;
       padding: 0;
       margin-bottom: 15px;
+      margin-left: 30px;
       font-size: 70px;
       color: black;
 
@@ -300,7 +312,7 @@
       right: -285px;
     }
     .main section.page3 h1 {
-      text-align: left;
+      text-align: center;
       padding: 0;
       margin-bottom: 0;
       font-size: 70px;
@@ -309,7 +321,7 @@
     }
     .main section.page3 h2 {
       color: rgba(0,0,0,0.85);
-      text-align: left;
+      text-align: center;
       line-height: 160%;
       font-weight: 100;
       font-size: 21px;
@@ -322,13 +334,14 @@
       background-repeat: no-repeat;
       background-size:cover;
     }
+
     .main section.page4 h1 {
       text-align: left;
       padding: 0;
       margin-bottom: 15px;
       font-size: 70px;
       color: white;
-      text-shadow: 2px 2px #000000;
+/*      text-shadow: 2px 2px #000000;*/
 
     }
     .main section.page4 h2 {
@@ -359,7 +372,7 @@
     /* PAGE FIVE */
 
     .main section.page5 {
-      background-image:url('artgallery.jpg');
+      background-image:url('artgallery2.jpg');
       background-repeat: no-repeat;
       background-size:cover;
     }
@@ -370,7 +383,7 @@
       margin-left: -1095px;
     }
 
-/*    .main section.page5 > .button1 {
+    .main section.page5 > .button1 {
       position: absolute;
       top: -300px;
       left: 50%;
@@ -386,7 +399,7 @@
       margin-left: -1095px;
       padding-top: 50px;
       padding-bottom: 50px;
-    }*/
+    }
 
     .button1 {
       position: relative;
@@ -402,29 +415,32 @@
 
     .main section.page5 h1 {
       text-align: center;
-      padding: 0;
-      margin-bottom: 15px;
+      padding: ;
+      margin-bottom: 5px;
       font-size: 50px;
       letter-spacing: -1px;
-      color: black;
+      color: white;
+
     }
+
     .main section.page5 h2 {
-/*      color: rgba(255,255,255,0.85);*/
-      color: black;
+      color: white;
       text-align: center;
+      width: 435px;
       line-height: 160%;
-      font-weight: 100;
     }
+
     .viewing-page-5 .back{
       background: rgba(0, 0, 0, 0.25);
       color: #FFF;
-      }
+    }
 
     /* PAGE SIX */
 
     .main section.page6 {
-      background: #ead731 url(Snapchat_logo.png) no-repeat center 150px ;
+      background: #ead731;
     }
+
     .main section.page6 > img {
       position: absolute;
       top: -300px;
@@ -441,14 +457,15 @@
       margin-bottom: 15px;
       font-size: 50px;
       letter-spacing: -1px;
-      color: white;
+      color: black;
     }
     .main section.page6 h2 {
-      color: rgba(255,255,255,0.85);
+      color: black;
       text-align: center;
       line-height: 160%;
       font-weight: 100;
     }
+
     .viewing-page-6 .back{
       background: rgba(0, 0, 0, 0.25);
       color: #FFF;
